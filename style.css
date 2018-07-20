@@ -1,0 +1,158 @@
+/*default styles*/
+
+
+* {
+    margin:0;
+    padding:0;
+    line-height: 0;
+    font-family: "Ubuntu";
+}
+
+.clear {
+    overflow: hidden;
+}
+.template{
+    width:1000px;
+    margin:0 auto;
+}
+.text-center {
+    text-align: center;
+}
+
+
+/*custom style code*/
+
+.ad{
+    height: 150px;
+    /*border: 1px solid grey;*/
+    /*border-bottom: 2px solid grey;*/
+    /*margin-bottom: 4px;*/
+   
+}
+.header-ad1 {
+    height: 150px;
+    width: 470px;
+    background-color: rgba(47, 93, 161, 0.76); 
+    float: left;
+    /*border: 1px solid green;*/
+}
+
+.header-ad1 img {
+    height:150px ;
+    width: 320px;
+}
+.header-ad2{
+    width: 500px;
+    height: 150px;
+    /*border: 1px solid red;*/
+    float: right;
+    background-color: rgba(47, 93, 161, 0.76);
+    }
+
+/*menu section*/
+
+.menusection {
+    height: 35px;
+   
+    background: #723434;
+}
+
+.logo {
+    float: left;
+    padding: 5px;
+    margin: 12px 0px 0px 30px;
+    width: 200px;
+}
+
+.logo h3{
+    color: white;
+}
+
+}
+.logo img {
+    height: 65px;
+    width: 65px;
+}
+.menu-right {
+    float: right;
+    padding: 5px;
+    margin: 12px 0px 0px 30px;
+    width: 400px;
+}
+.menu-right ul {
+    float: right
+}
+.menu-right ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 4px;
+    margin: 5px;
+    border-left: 2px solid grey; 
+}
+
+.menu-right ul li:first-child{
+    border-left: 0px;
+}
+
+
+.menu-right ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.menu-right ul li a:hover {
+    text-decoration: underline;
+}
+
+/*content1 section*/
+
+.content1{
+    height: 300px;
+    border-top: 2px solid grey;
+    /*border-bottom: 2px solid grey;*/
+}
+.content1-left{
+    float: left;
+    height: 300px;
+    width: 350px;
+}
+.content1-left img {
+    height: 300px;
+    width: 451px;
+    border: 1px solid chocolate;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 4px;
+}
+
+
+.content1-right {
+    float: right;
+    width: 513px;
+    height: 300px;
+    /* margin-left: 12px; */
+    /* padding: 0px; */
+}
+.content1-right h2 {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+    border-bottom: 1px solid tomato;
+    padding: 19px 0px;
+}
+.content1-right p {
+    /* font-family: "lato light"; */
+    font-size: 15px;
+    line-height: 22px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.content2{
+    height: 300px;
+}
+.content2-left {}
+.content2-left h2 {}
+.content2-left p {}
